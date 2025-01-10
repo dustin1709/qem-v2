@@ -43,7 +43,7 @@ const galleryData = {
       altText: 'Ocean Life 7',
     },
     {
-      imageUrl: '/assets/img/ocean-life/gallery-01.jpg',
+      imageUrl: '/assets/img/ocean-life/gallery-01.jpeg',
       altText: 'Ocean Life 9',
     },
   ],
