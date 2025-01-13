@@ -9,7 +9,7 @@ const headingData = {
 const aboutData = {
   videoUrl: '',
   videoImageUrl: '/assets/img/nature/plasticbottles-deco.jpg',
-  SectionTitle: 'Quality. Environmental. Management.',
+  SectionTitle: 'Quality. Eco-friendly. Management.',
   SectionSubtitle: 'Who we are',
   description:
     "QEM is independently owned and operated by its leadership team alongside global business partners. We are dedicated to cultivating enduring and sustainable partnerships with our clients and suppliers.",
