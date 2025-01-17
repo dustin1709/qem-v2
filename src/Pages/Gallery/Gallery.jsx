@@ -46,6 +46,38 @@ const galleryData = {
       imageUrl: '/assets/img/ocean-life/gallery-01.jpg',
       altText: 'Ocean Life 9',
     },
+    {
+      imageUrl: '/assets/img/ocean-life/1.png',
+      altText: 'Ocean Life 10',
+    },
+    {
+      imageUrl: '/assets/img/ocean-life/2.png',
+      altText: 'Ocean Life 11',
+    },
+    {
+      imageUrl: '/assets/img/ocean-life/3.png',
+      altText: 'Ocean Life 12',
+    },
+    {
+      imageUrl: '/assets/img/ocean-life/4.jpeg',
+      altText: 'Ocean Life 13',
+    },
+    {
+      imageUrl: '/assets/img/ocean-life/5.jpeg',
+      altText: 'Ocean Life 14',
+    },
+    {
+      imageUrl: '/assets/img/ocean-life/6.jpeg',
+      altText: 'Ocean Life 15',
+    },
+    {
+      imageUrl: '/assets/img/ocean-life/7.jpeg',
+      altText: 'Ocean Life 16',
+    },
+    {
+      imageUrl: '/assets/img/ocean-life/8.jpeg',
+      altText: 'Ocean Life 17',
+    }
   ],
 };
 const Gallery = () => {
@@ -63,10 +95,18 @@ const Gallery = () => {
       <Section
         topSpaceMd="75"
         topSpaceLg="145"
-        bottomSpaceMd="80"
-        bottomSpaceLg="150"
+        bottomSpaceMd="120"
+        bottomSpaceLg="120"
       >
         <GallerySection data={galleryData} />
+      </Section>
+      <Section>
+        <div style={{textAlign: 'center', paddingBottom: '10rem'}}>
+          <h1 style={{paddingBottom: '2px'}}>Our Clean UBC Scrap</h1>
+          <video style={{width: '70%'}} controls>
+            <source src="https://qem-global-company.s3.ap-northeast-1.amazonaws.com/ENG-UBC.mp4" type="video/mp4" />
+          </video>
+        </div>
       </Section>
     </>
   );
