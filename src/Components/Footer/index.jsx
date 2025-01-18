@@ -20,7 +20,7 @@ const data = {
     { text: "CAREERS", url: "contact" },
   ],
   contactInfo: {
-    phone: "+84 454 7800 112",
+    phone: "+84985130518",
     email: "infodesk@qem-global.com",
   },
   footerBottom: {
