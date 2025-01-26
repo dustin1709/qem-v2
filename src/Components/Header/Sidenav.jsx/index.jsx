@@ -113,18 +113,12 @@ const Sidenav = ({
                   <TfiLinkedin />
                 </i>
               </Link>
-              <Link to="/" className="cs_center">
-                <i>
-                  {' '}
-                  <FaTwitter />
-                </i>
-              </Link>
-              <Link to="/" className="cs_center">
+              <Link to="https://www.youtube.com/@qemcompany" target='_blank' className="cs_center">
                 <i>
                   <FaYoutube />
                 </i>
               </Link>
-              <Link to="/" className="cs_center">
+              <Link to="/" target='_blank' className="cs_center">
                 <i>
                   <FaFacebookF />
                 </i>

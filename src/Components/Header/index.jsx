@@ -34,13 +34,13 @@ const data = {
 const sidenavData = {
   logoSrc: '/assets/img/logo_dark.svg',
   projectHeading: 'For inquiries, please contact us.',
-  phone: '+84 454 7800 112',
-  url1: 'tel:+444547800112',
+  phone: '(+84) 98 513 0518',
+  url1: '',
   email: 'infodesk@qem-global.com',
   url2: 'mailto:infodesk@qem-global.com',
   content: 'Ho Chi Minh City, Vietnam',
-  subscriptionPlaceholder: 'Email address',
-  buttonText: 'Subscribe Now',
+  subscriptionPlaceholder: 'EMAIL',
+  buttonText: 'Follow',
 };
 
 const Header = ({ isHamburger, variant, logo, bottomBorder }) => {
